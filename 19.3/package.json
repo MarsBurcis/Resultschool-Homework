@@ -1,25 +1,9 @@
 {
-  "name": "resultschool-homework",
-  "version": "1.0.0",
-  "description": "1. git status - узнаем какие файлы были изменены.\r 2. git add . - добавляем все измененые файлы.\r 3. git commit -m \"comment\" - добавление комментария к изменениям.\r 4. git log / git log --oneline - просмотр записи\r 5. git push - [ссылка на репозиторий(название репозитория)] [название ветки]\r 6. git branch - просмотр ветки в который мы находимся",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MarsBurcis/Resultschool-Homework.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/MarsBurcis/Resultschool-Homework/issues"
-  },
-  "homepage": "https://github.com/MarsBurcis/Resultschool-Homework#readme",
   "devDependencies": {
-    "html-webpack-plugin": "^5.6.3",
     "webpack": "^5.101.0",
     "webpack-cli": "^6.0.1"
+  },
+  "scripts": {
+    "start": "webpack --config webpack.config.js"
   }
 }
