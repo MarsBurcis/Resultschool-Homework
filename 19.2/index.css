@@ -1,0 +1,14 @@
+/* Стили для h1 */
+.textContent {
+  text-align: center;
+  color: #4CAF50;
+  font-family: Arial, sans-serif;
+}
+
+/* Стили для img */
+.imageContent {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+}
