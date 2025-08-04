@@ -4,6 +4,6 @@ textContent.textContent = "I love JavaScript";
 
 const imageContent = document.createElement("img");
 imageContent.className = "imageContent";
-imageContent.src = "assets/JS-image.png";
+imageContent.src = "./assets/JS-image.png";
 
 document.body.append(mainTitle, JSImageHTML);
