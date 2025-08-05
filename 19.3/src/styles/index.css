@@ -1,0 +1,9 @@
+.textContent {
+  color: blue;
+  font-family: Arial;
+}
+
+.imageContent {
+  max-width: 300px;
+  border: 2px solid green;
+}
